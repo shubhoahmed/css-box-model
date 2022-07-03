@@ -6,27 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css box model practice</title>
     <style>
-        .wrap{
+      /*  .wrap{
             background-color: aqua;
-        }
+        }*/
         .box1,.box2{
                 height: 100px;
                 width: 100px;
         }
         .box1{
-            padding: 40px;
+            padding: 30px;
+            border: 5px solid rgb(226, 124, 124);
             background-color: blueviolet;
         }
         .box2{
-            margin: 40px;
+            margin: 30px;
+            padding: 30px;
+            border: 5px solid gold;
             background-color: bisque;
         }
     </style>
 </head>
 <body>
     <div class="wrap">
-        <div class="box1"></div>
-        <div class="box2"></div>
+        <div class="box1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+        <div class="box2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
     </div>
 </body>
 </html>
